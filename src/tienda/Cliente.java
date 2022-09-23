@@ -42,6 +42,15 @@ public class Cliente {
     public void setDNI(int DNI) {
         this.DNI = DNI;
     }
+
+    @Override
+    public String toString() {
+        return "Cliente:" + "" +
+                "\nnombre:" + nombre + ""
+                + "\napellido=" + apellido + ""
+                + "\nDNI=" + DNI;
+    }
+    
     
     
 }
